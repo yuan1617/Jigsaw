@@ -1,14 +1,14 @@
 package com.yuan.jigsaw.model
 
-import android.databinding.BaseObservable
-import android.databinding.Bindable
 import android.graphics.Bitmap
 
-class JigsawInfo : BaseObservable()
+open class JigsawInfo
 {
-    @Bindable
-    var no : Int = 0
+    var no: Int = 0
 
-    @Bindable
-    var imageBitmap :Bitmap? = null
+    var imageBitmap: Bitmap? = null
+
+    var width: Int = 0
+
+    var height: Int = 0
 }
