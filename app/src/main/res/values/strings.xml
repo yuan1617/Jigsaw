@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jigsaw</string>
+    <string name="select_pic">选择图片</string>
+
+    <string name="title_activity_jigsaw">JigsawActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
