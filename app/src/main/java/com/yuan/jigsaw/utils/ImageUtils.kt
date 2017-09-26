@@ -55,6 +55,7 @@ object ImageUtils
     fun genRandomJigsaw(arr: ArrayList<JigsawInfo>)
     {
         val info = arr.last()
+        info.isEmptyImg = true
         arr.removeAt(arr.lastIndex)
         Collections.shuffle(arr)
         arr.add(info)

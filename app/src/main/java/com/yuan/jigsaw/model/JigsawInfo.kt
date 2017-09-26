@@ -11,4 +11,6 @@ open class JigsawInfo
     var width: Int = 0
 
     var height: Int = 0
+
+    var isEmptyImg = false
 }
